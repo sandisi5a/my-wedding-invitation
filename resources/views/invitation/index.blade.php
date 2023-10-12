@@ -328,7 +328,7 @@
                                                 <label for="nama">Nama</label>
                                             </div>
                                             <div class="input-form">
-                                                <input type="text" class="w-100 input-t" id="nama" name="nama" placeholder="Nama Anda" value="{{ ucfirst($name) }}" required>
+                                                <input type="text" class="w-100 input-t" id="nama" name="nama" placeholder="Nama Anda" required>
                                             </div>
                                         </div>
                                     </div>
