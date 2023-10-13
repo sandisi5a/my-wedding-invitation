@@ -90,7 +90,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a id="click-gallery" class="bar-icon icon-doa">
+                                <a id="click-gallery" class="bar-icon icon-gallery">
                                     <img src="{{asset('admin/assets/invitation/img/gallery.svg')}}" class="img-off" alt="">
                                     <img src="{{asset('admin/assets/invitation/img/gallery.svg')}}" class="img-active" alt="">
                                 </a>

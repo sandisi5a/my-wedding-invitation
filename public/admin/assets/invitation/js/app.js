@@ -344,4 +344,21 @@ document.addEventListener("DOMContentLoaded", function() {
             changeBackground(".icon-doa", "");
         },
     });
+
+    ScrollTrigger.create({
+        trigger: "#gallery-id",
+        scroller: "#mobile-scroll",
+        onEnter: function() {
+            changeBackground(".icon-gallery", "active");
+        },
+        onEnterBack: function() {
+            changeBackground(".icon-gallery", "active");
+        },
+        onLeave: function() {
+            changeBackground(".icon-gallery", "");
+        },
+        onLeaveBack: function() {
+            changeBackground(".icon-gallery", "");
+        },
+    });
 });
