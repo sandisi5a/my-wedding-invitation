@@ -571,6 +571,19 @@
             blockDetail1.classList.add("scrollable");
         }
     </script>
+    </script>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var modal = document.getElementById('id01');
+            
+            // Tambahkan event listener ke elemen luar modal
+            window.addEventListener('click', function(event) {
+                if (event.target === modal) {
+                    modal.style.display = 'none';
+                }
+            });
+        });
+        </script>
 
 </body>
 
